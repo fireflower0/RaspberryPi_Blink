@@ -1,7 +1,5 @@
-(in-package :cl-cffi)
-
 (define-foreign-library libwiringPi
-			  (:unix "libwiringPi.so"))
+  (:unix "libwiringPi.so"))
 
 (use-foreign-library libwiringPi)
 
