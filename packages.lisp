@@ -1,0 +1,7 @@
+(ql:quickload "cffi")
+
+(defpackage :cl-cffi
+    (:use :common-lisp :cffi))
+
+(in-package :cl-cffi)
+
